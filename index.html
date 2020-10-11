@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="beginner" class="scenes">
+            <div>
+                <h1>Black Jack</h1>
+                <button id="start">Start</button>
+                <p id="load">Shuffling Deck. . .</p>
+            </div>
+        </div>
+    
+        <div id="table" class="scenes">
+    
+            <div id="hand-contain">
+                <div id="dealerSide" class="hands">
+                    <div id="dealerHand">
+                        <img class="card-hidden" src="https://deckofcardsapi.com/static/img/KH.png">
+                        <img id="d-img-1" class="cards" src="https://deckofcardsapi.com/static/img/KH.png"
+                            style="left:10px;">
+                        <img id="d-img-2" class="cards" src="https://deckofcardsapi.com/static/img/KH.png"
+                            style="left:30px;">
+                    </div>
+                </div>
+    
+                <div id="playerSide" class="hands">
+                    <div id="playerHand">
+                        <img class="card-hidden" src="https://deckofcardsapi.com/static/img/KH.png">
+                        <img id="p-img-1" class="cards" src="https://deckofcardsapi.com/static/img/KH.png"
+                            style="left:10px;">
+                        <img id="p-img-2" class="cards" src="https://deckofcardsapi.com/static/img/KH.png"
+                            style="left:30px;">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="buttons">
+                <ul>
+                    <li>
+                        <button id="hit">Hit</button>
+                    </li>
+                    <li>
+                        <button id="stand">Stand</button>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+    
+        <div id="endGame">
+            <div class="scenes end">
+                <div>
+                    <h1 id="endMessage">This is the End</h1>
+                    <button id="PlayAgain">Play Again</button>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
